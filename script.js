@@ -3,7 +3,6 @@ var imgsvg = document.getElementById("Layer_1");
 var gBoxes= document.querySelectorAll("g > rect");
 
 document.addEventListener('click', function(event) {
-    console.log(event.target);
     var feature = (event.target.parentNode.id +"-More");
     [].forEach.call(featureBoxes, function(el, i, els) {
         if(els[i].classList.contains(feature)){
