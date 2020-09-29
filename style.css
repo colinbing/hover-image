@@ -14,7 +14,8 @@ body {
 }
 
 svg {
-    width:100%;
+    width:600px;
+    max-width:100%;
     align-self:center;
     justify-self:center;
 }
@@ -43,6 +44,10 @@ h3{
 
 #feature-boxes {
     color:white;
+    width:600px;
+    max-width:100%;
+    margin:auto;
+    margin-top:20px;
 }
 
 #feature-boxes p {
@@ -53,7 +58,6 @@ h3{
 
 #feature-boxes div {
     display:none;
-    margin:20px;
     background-color:#5d6cd3;
     border-radius:5px;
     padding:30px;
