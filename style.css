@@ -76,16 +76,23 @@ h3{
 }
 
 .button-1 {
-    padding:20px;
-    font-size:18px;
-    margin:20px;
-    border-radius:5px;
+    font-size: 14px;
+    margin-top:30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #ebebeb;
+    background-color: #ebebeb;
     stroke:none;
     cursor:pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
 }
 
 .button-1 a{
     text-decoration:none;
+    color: #666;
 }
 
 .button-1:hover {
