@@ -29,4 +29,7 @@ imgsvg.addEventListener('click', function(event) {
 function closeWin(el) {
     el.parentNode.style.display='none';
     document.getElementById('selection').classList.remove("hidden");
+    [].forEach.call(featureBoxes, function(el, i, els) {
+        gBoxes[i].classList.remove("active-feature")
+    });
 }
