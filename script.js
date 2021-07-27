@@ -1,7 +1,7 @@
+
 const featureBoxes = document.querySelectorAll('#feature-boxes>div'); // creating an array of expanded info boxes
-var gBoxes= document.querySelectorAll("g > rect");
+var gBoxes= document.querySelectorAll(".popup-box > rect");
 const imgsvg = document.getElementById("Layer_1");
-const imgPopup = document.querySelectorAll('.feature-exit');
 
 imgsvg.addEventListener('click', function(event) {
     var feature = (event.target.parentNode.id +"-More");
@@ -25,6 +25,8 @@ imgsvg.addEventListener('click', function(event) {
     
 
 });
+
+
 
 function closeWin(el) {
     el.parentNode.style.display='none';

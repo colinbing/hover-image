@@ -22,7 +22,7 @@ body {
     margin-bottom:20px;
 }
 
-svg g {
+.popup-box {
     cursor:pointer;
 }
 
